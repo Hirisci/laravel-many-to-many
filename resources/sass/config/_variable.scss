@@ -1,0 +1,28 @@
+:root {
+    /*╔════════════════════════════╗
+              COLORS
+    ╚════════════════════════════╝*/
+
+    --clr-active: rgb(2, 130, 249);
+    --clr-txt-1: #fff;
+    --clr-txt-2: rgb(0, 63, 94);
+    --clr-bg-footer: rgb(48, 48, 48);
+    --clr-bg-main: rgb(28, 28, 28);
+    --clr-bg-table: rgb(85, 186, 89);
+    --clr-bg-img: rgb(0, 169, 217);
+    --clr-bg-gray: rgb(246, 246, 246);
+    /*╔════════════════════════════╗
+          COMPONENT DIMENSION
+    ╚════════════════════════════╝*/
+    /* width */
+    --wdt-container-xl: 80rem;
+    /* height */
+    --hgt-item: 4rem;
+    --hgt-item-lg: 4.5rem;
+    --hgt-item-sm: 2.5rem;
+
+    /*╔════════════════════════════╗
+                GUTTERS
+    ╚════════════════════════════╝*/
+    --space-unit: 1rem;
+}

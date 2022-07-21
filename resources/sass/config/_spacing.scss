@@ -1,0 +1,35 @@
+:root {
+    /*╔════════════════════════════╗
+         BASE SPACING
+      ╚════════════════════════════╝*/
+
+    $units: (
+        "-xxs": calc(0.125 * var(--space-unit)),
+        "-xs": calc(0.25 * var(--space-unit)),
+        "-sm": calc(0.5 * var(--space-unit)),
+        "-md": calc(1 * var(--space-unit)),
+        "-lg": calc(1.5 * var(--space-unit)),
+        "-xl": calc(2.25 * var(--space-unit)),
+        "-xxl": calc(3 * var(--space-unit)),
+    );
+
+    /*╔════════════════════════════╗
+            MARGIN
+      ╚════════════════════════════╝*/
+
+    $prefix: "m";
+
+    @each $name, $unit in $units {
+        --#{$prefix}#{$name}: #{$unit};
+    }
+
+    /*╔════════════════════════════╗
+            PADDING
+      ╚════════════════════════════╝*/
+
+    $prefix: "p";
+
+    @each $name, $unit in $units {
+        --#{$prefix}#{$name}: #{$unit};
+    }
+}
